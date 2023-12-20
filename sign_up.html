@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Sign Up</legend>
+            <h2>Sign up Form</h2>
+            <label for="userid">Name</label><br>
+            <input type="text" id="username"  placeholder="enter name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="abcd@gmail.com"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" minlength="8" maxlength="32"placeholder="********"><br>
+            <label for="country" >Country</label><br>
+            <input type="text" id="country" list="countrylist" placeholder="choose your country"><br>
+            <datalist id="countrylist">
+                <option value="ethiopia"></option>
+                <option value="eritria"></option>
+                <option value="america"></option>
+                <option value="Sudan"></option>
+            </datalist>
+            <input type="button" value="submit" >
+            
+        </fieldset>
+    </form>
+</body>
+</html>
